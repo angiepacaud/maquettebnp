@@ -1,0 +1,186 @@
+header
+{
+	background-color: #2ecc71;
+	border-bottom: 4px, white, groove;
+	font-size: 14px;
+	font-family: Garamond, Courier;
+	border-bottom: solid 2px white;
+
+}
+.bnp
+{
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: top right;
+	width: 100px;
+	height: 100px;
+	
+}
+.txtbnp
+{
+	font-style: italic;
+}
+.connection
+{
+	text-align: top right;
+}
+.deg 
+{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.navbar
+{
+	position: fixed;
+
+}
+
+body
+{
+	background-color: #ecf0f1;
+
+}
+.navbar
+{
+	position: relative;
+	border: 1px solid white;
+}
+
+table
+{
+	border-collapse: collapse;
+	border: 1px solid black;
+	width: 100%;
+	
+
+}
+thead
+{
+	background-color: #2ecc71;
+}
+th
+{
+	border:1px solid black;
+	color: white;
+	text-align: center;
+}
+td
+{
+	border: 1px solid black;
+	text-align: center;
+}
+tr
+{
+	width: auto;
+}
+.forcon
+{
+	
+	padding: 5px;
+}
+#map
+{
+	width: 100px;
+	height: 100px;
+}
+.mosa
+{
+	margin-top: 10px;
+}
+#progress
+{
+	width: 200px;
+	margin: auto;
+}
+progress
+{
+	display: inline-block;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 200px;
+	height: 10px;
+}
+footer
+{
+	font-size: 14px;
+	font-family: Verdana, Courier, Arial;
+	border-top: solid 2px white;
+	margin-top: 20px;
+	background-color: #7f8c8d;
+	color: black;
+}
+.tel
+{
+	width: 50px;
+	height: 50px;
+	margin-bottom: 50px;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.adresse
+{
+	width: 50px;
+	height: 50px;
+	margin-bottom: 50px;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.mail
+{
+	width: 50px;
+	height: 50px;
+	margin-bottom: 50px;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.formulaire
+{
+	width: 50px;
+	height: 50px;
+	margin-bottom: 50px;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.fb
+{
+	width: 50px;
+	height: 50px;
+	margin-bottom: 50px;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.insta
+{
+	width: 50px;
+	height: 50px;
+	margin-bottom: 50px;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.twitter
+{
+	width: 50px;
+	height: 50px;
+	margin-bottom: 50px;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.info
+{
+	width: 50px;
+	height: 50px;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.txt3
+{
+	border: 1px solid white;
+	height: 80px;
+	overflow: auto;
+	text-align: justify;
+}
+.bouton
+{
+	width: 80%;
+	height: 80%;
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="maquette.css">
+	<title>Maquette BnP</title>
+</head>
+
+<body>
+
+<header>
+	<section>
+<div class="row">
+	<div class="col-md-10">
+	<p class="txtbnp"><img class="bnp" src="bnp.png">La banque d'un monde qui change</p>
+	<br/>
+		<form method="post" action="Recherche">
+	<input type="text" name="recherche" id="recherche" placeholder="Recherche" size="30" maxlength="10"/>		
+		</form>
+	</div>
+	<div class="col-md-2">
+		<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#ModalConnection">Connection
+		</button>
+	<div class="modal fade" id="ModalConnection" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+		<div class="modal-content">
+		<div class="modal-header">
+	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	<h4 class="modal-title" id="myModalLabel">Connection</h4>
+		</div>
+		<div class="modal-body">
+			<form method="post">
+				<p>
+					<label for="identifaint">Identifiant</label> : <input type="text" name="Identifiant" id="identifiant"required/>
+				<br/>
+					<label for="pass">Mot de passe:</label><input type="password" name="pass" id="pass" maxlength="10" required/>
+				<a href="maquette_2.html" target="_blank"><input type="submit" value="Envoyer"/></a>
+
+				</p>
+
+			</form>
+		</div>
+		</div>
+		</div>
+	</div>
+
+	</div>
+</div>
+	</section>
+</header>
+
+<h1 class="un">Nouveautés du CE</h1> 	<!--premier niveau-->
+	<div class="bs-example">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+     
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>   
+        
+        <div class="carousel-inner">
+            <div class="active item">
+                <img src="starwarslego.jpg" alt="Star Wars Lego" width="640" height="310"/>
+         		<div class="carousel-caption">
+                  <p><strong>Projection</strong> en avant première du nouveau Star-Wars, le 14 décembre.<br/>Places disponibles sur la billetterie du CE.</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="ouzbékistan.jpg" alt="Ouzbékistan" width="640" height="310"/>
+                <div class="carousel-caption">
+                  <p><strong>Voyage collectif</strong>organisé en Ouzbékistan.<br/>Places encore disponibles.</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="colonies.jpg" alt="colonies" width="640" height="310"/>
+                <div class="carousel-caption">
+                  <p><strong>Colonies de vacances</strong>en Midi-Pyrénées.<br/>Réservé aux enfants des salariés BnP et ses filiales.</p>
+                </div>
+            </div>
+            <div class="item">
+            	<img src="garde.jpg" alt="garde" width="640" height="310"/>
+                <div class="carousel-caption">
+                  <p><strong>Nouvelles</strong>conditions de remboursement des frais de garde pour vos enfants.<br/><a href="maquette_3.html">Voir</a></p>
+                </div>
+            </div>
+        </div>
+        
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+</div>
+
+
+<h1 class="deux">Témoignages</h1>		<!--second niveau-->
+<br/>
+<section>
+	<div class="row">
+		<div class="col-md-4">
+		<img class="carol" src="carol.jpg"><br/>
+		<h2>Carol, the last woman on earth</h2>
+		<p class="txt1">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+		</div>
+		<div class="col-md-4">
+		<img class="logan" src="logan.jpg"><br/>
+		<h2>Logan, manucure</h2>
+		<p class="txt2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+		</div>
+		<div class="col-md-4">
+		<img class="jon" src="jon.jpg"> <br/>
+		<h2>Jon, king of North</h2>
+		<p class="txt3">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+	</div>
+</div>
+</section>
+
+<h1 class="trois">Partenaires</h1>		<!--troisième niveau-->
+<br/>
+	<section>
+	<div class="row">
+	<div class="col-md-4">
+	<a href="http://www.fnac.com" alt="fnac" target="_blank"><img class="fnac" src="fnac.png"/></a></div>
+	<div class="col-md-4">
+	<a href="http://www.cinemasgaumontpathe.com" alt="Gaumont" target="_blank"><img class="gaumont" src="gaumont.png"/></a></div>
+	<div class="col-md-4">
+	<a href="http://www.ticketkadeos.fr" alt="Kadeo" target="_blank"><img class="kadeo" src="kadeo.jpg"/></a></div>
+</div>
+	</section>
+
+<footer>
+	<br/>
+	<section>
+		<div class="row">
+			<div class="col-md-4">
+			<img class="tel" src="telephone.jpg" title="01.48.52.89.20" />
+			<img class="adresse" src="adresse.png" title="44 rue du cheminot, Patin"><br/>
+			<img class="mail" src="mail.jpg" title="mail@bnp.com">
+			<a href="https://www.bnpparibascardif.com/fr_FR/contact" alt="contact" target="_blank"><img class="formulaire" src="formulaire.png"></a>
+		</div>
+		<div class="col-md-4">
+			<a href="https://www.facebook.com/mabanque.bnpparibas/" alt="fb" target="_blank"><img class="fb" src="fb.png"></a>
+			<a href="https://www.instagram.com/bnpparibas/?hl=fr" alt="insta" target="_blank"><img class="insta" src="insta.png"></a><br/>	
+			<a href="https://twitter.com/mabanque_bnpp" alt="twitter" target="_blank"><img class="twitter" src="twitter.png"></a>
+		</div>
+		<div class="col-md-4">
+			<img class="info" src="Info.png"><br/>
+			<h3>Historique du CE</h3>
+			<p class="txt3">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+			
+		</div>
+		</div>
+	</section>
+
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="maquette.js"></script>
+</body>
+
+</html>
